@@ -12,3 +12,4 @@ RUN apt-get update && \
 CMD ["puma", "--config",  "puma.rb", \
              "--bind",    "tcp://localhost:4567", \
              "--log-requests"]
+
